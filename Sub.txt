@@ -1,0 +1,7 @@
+1
+Kerna 5
+	Lucius 30.4	22
+	Katarina 55.54	43
+	Sion 32.6	45
+	Vernon 42.67	65.3
+	Corey 46.4	43.4	

@@ -1,0 +1,77 @@
+/*
+void MaiorMenorForca(cidade city, cidade cityV, cidade cityST){
+	
+	int i = 0;
+	int j = 0, cont = 1;
+	
+	float indice_maior_ceu[10];
+	float indice_menor_ceu[10];
+	
+	char **vetor_maior_ceu_M = (char**)malloc(30 * sizeof(char));
+	char **vetor_menor_ceu_M = (char**)malloc(30 * sizeof(char));
+	
+	for(i =0; i < 30; i++){
+		
+		vetor_maior_ceu_M[i] = (char*)malloc(30*sizeof(char));
+	}	
+	
+	for(i =0; i < 30; i++){
+		
+		vetor_menor_ceu_M[i] = (char*)malloc(30*sizeof(char));
+	}	
+	
+	for(int z = 0; z < 10; z++){
+		indice_maior_ceu[z] = 0;
+	}
+	
+	for(int z = 0; z < 10; z++){
+		indice_menor_ceu[z] = 0;
+	}
+	
+	indice_maior_ceu[0] = city[i].ponteiro->personagens[0].forca;
+	indice_menor_ceu[0] = city[i].ponteiro->personagens[0].forca;
+	
+	for(i = 0; i < city.c; i++){
+		
+		for(int k = 0; k < city[k].n; k++){
+			
+			if(city[i].ponteiro->personagens[k].forca > indice_maior_ceu[j]){
+				
+				indice_maior_ceu[0] = city[i].ponteiro->personagens[k].forca;
+				vetor_maior_ceu_M[0] = city[i].ponteiro->personagens[k].nome;
+				j++;
+				
+				for(int z = 1; z < 10; z++){
+					
+					indice_maior_ceu[z] = 0;
+					vetor_maior_ceu_M[z] = '\0';
+				}
+				cont = 1;
+				
+			}else if (city[i].ponteiro->personagens[k].forca == *indice_maior_ceu[j]){
+				
+				indice_maior_ceu[0+cont] =  city[i].ponteiro->personagens[k].forca;
+				vetor_maior_ceu_M[0+cont] = city[i].ponteiro->personagens[k].nome;
+				cont++;				
+			}
+		}
+	}
+	
+	for(i = 0; i < city.c; i++){
+		
+		for(int k = 0; k < city[k].n; k++){
+			
+			if(city[i].ponteiro->personagens[k].forca < *indice_menor_ceu[j]){
+				
+				indice_menor_ceu[j] = &city[i].ponteiro->personagens[k];
+				j++;
+				
+			}else if (city[i].ponteiro->personagens[k].forca == *indice_menor_ceu[j]){
+				
+				indice_menor_ceu[j+1] =  &city[i].ponteiro->personagens[k];
+				j+=2;
+				
+			}
+		}
+	}
+}*/
